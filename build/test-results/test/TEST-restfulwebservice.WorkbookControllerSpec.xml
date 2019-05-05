@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restfulwebservice.WorkbookControllerSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-05T15:31:05" hostname="JaybriesMacBook" time="1.547">
+  <properties/>
+  <testcase name="test the save action with existing workbook then returns successful result" classname="restfulwebservice.WorkbookControllerSpec" time="1.547">
+    <failure message="java.lang.IllegalStateException: No GORM implementations configured. Ensure GORM has been initialized correctly" type="java.lang.IllegalStateException">java.lang.IllegalStateException: No GORM implementations configured. Ensure GORM has been initialized correctly
+	at org.grails.datastore.gorm.GormEnhancer.findSingleDatastore(GormEnhancer.groovy:383)
+	at org.grails.datastore.gorm.GormEnhancer.findSingleTransactionManager(GormEnhancer.groovy:402)
+	at org.grails.testing.runtime.support.ActionSettingMethodHandler.invoke(ActionSettingMethodHandler.groovy:29)
+	at restfulwebservice.WorkbookControllerSpec.test the save action with existing workbook then returns successful result(WorkbookControllerSpec.groovy:52)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restfulwebservice.WorkbookServiceSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-05-05T15:44:15" hostname="JaybriesMacBook" time="1.356">
+  <properties/>
+  <testcase name="test save method with existing workbook then returns the saved workbook" classname="restfulwebservice.WorkbookServiceSpec" time="1.16"/>
+  <testcase name="test retrieveId action of workbook then returns the workbook that matches the given id parameters" classname="restfulwebservice.WorkbookServiceSpec" time="0.108"/>
+  <testcase name="test delete action with existing workbook then should delete the existing workbook" classname="restfulwebservice.WorkbookServiceSpec" time="0.022"/>
+  <testcase name="test the index action then returns the correct model with size of list" classname="restfulwebservice.WorkbookServiceSpec" time="0.057"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -67,4 +67,24 @@ class WorkbookServiceSpec extends Specification implements ServiceUnitTest<Workb
         then:
         result ==  null
     }
+
+        void 'test the list action with 3 existing workbooks then returns the correct model with size of list'(){
+
+        given:
+        DateTimeFormatter formatter = DateTimeFormat.forPattern("yyyy-mm-dd")
+        def workbook1 = new Workbook(firstName:"test",lastName:"test",dateOfBirth: LocalDate.parse('1997-11-02',formatter),age: 21,passportNumber: "E12345678",email: "jaybrielsomcio@gmail.com",phone: "09452665267")
+        def workbook2 = new Workbook(firstName:"test",lastName:"test",dateOfBirth: LocalDate.parse('1997-11-02',formatter),age: 21,passportNumber: "E12445678",email: "jaybrielsomcio@yahoo.com",phone: "09452665267")
+        def workbook3 = new Workbook(firstName:"test",lastName:"test",dateOfBirth: LocalDate.parse('1997-11-02',formatter),age: 21,passportNumber: "E22345678",email: "jaybrielsomcio@hotmail.com",phone: "09452665267")
+        def result
+
+        when:
+        service.save(workbook1)
+        service.save(workbook2)
+        service.save(workbook3)
+        result = service.list()
+
+        then:
+        result.size() == 3
+
+    }
 }

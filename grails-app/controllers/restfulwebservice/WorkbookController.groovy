@@ -11,7 +11,7 @@ class WorkbookController {
 
     def workbookService
 
-    static responseFormats=['json','xml']
+    static responseFormats=['json','xml','hal']
     def index()
     {
         if(workbookService.list().size() <= 0)

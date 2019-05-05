@@ -15,12 +15,12 @@ class Workplace {
 
     LocalDate endDate
     static constraints = {
-        cmpCode nullable: false
-        cmpName nullable: true
-        ctyCode nullable: false
-        ctyDesc nullable: true
-        startDate nullable: false,matches:"([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))"
-        endDate matches:"([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))",nullable: false,validator: {val, obj ->
+        cmpCode nullable: false,blank:false
+        cmpName nullable: true,blank:true
+        ctyCode nullable: false,blank:false
+        ctyDesc nullable: true,blank:true
+        startDate blank:false,nullable: false,matches:"([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))"
+        endDate matches:"([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))",nullable: false,blank:false,validator: {val, obj ->
             if(val <= obj.startDate)
                 return ['overlap']
         }

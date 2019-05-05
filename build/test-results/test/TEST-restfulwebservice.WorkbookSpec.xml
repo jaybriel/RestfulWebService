@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restfulwebservice.WorkbookSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-05-05T04:26:22" hostname="JaybriesMacBook" time="0.291">
+  <properties/>
+  <testcase name="test email validation with different test inputs and output expected result" classname="restfulwebservice.WorkbookSpec" time="0.089"/>
+  <testcase name="test name cannot be blank then validate value" classname="restfulwebservice.WorkbookSpec" time="0.008"/>
+  <testcase name="test name cannot be null then validate value" classname="restfulwebservice.WorkbookSpec" time="0.008"/>
+  <testcase name="test date of birth cannot be null" classname="restfulwebservice.WorkbookSpec" time="0.1"/>
+  <testcase name="test passportNumber cannot be blank" classname="restfulwebservice.WorkbookSpec" time="0.007"/>
+  <testcase name="test passportNumber cannot be null" classname="restfulwebservice.WorkbookSpec" time="0.008"/>
+  <testcase name="test phone cannot be null" classname="restfulwebservice.WorkbookSpec" time="0.009"/>
+  <testcase name="test age range validation with different test inputs and ouput expected result" classname="restfulwebservice.WorkbookSpec" time="0.057"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

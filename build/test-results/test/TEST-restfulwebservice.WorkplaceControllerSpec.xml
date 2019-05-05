@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restfulwebservice.WorkplaceControllerSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-05T04:28:21" hostname="JaybriesMacBook" time="0.13">
+  <properties/>
+  <testcase name="test something" classname="restfulwebservice.WorkplaceControllerSpec" time="0.13">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at restfulwebservice.WorkplaceControllerSpec.test something(WorkplaceControllerSpec.groovy:16)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

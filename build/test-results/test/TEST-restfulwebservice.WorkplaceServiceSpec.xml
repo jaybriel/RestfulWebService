@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="restfulwebservice.WorkplaceServiceSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-05-05T16:08:54" hostname="JaybriesMacBook" time="0.846">
+  <properties/>
+  <testcase name="test validateDate with existing workbook and workplace to validate startdate and enddate if overlaps and returns expected boolean result" classname="restfulwebservice.WorkplaceServiceSpec" time="0.593"/>
+  <testcase name="test checkOverlapWithPrevDate with existing workbook and multiple workplace to validate startdate and enddate if overlaps with other entries and returns expected boolean result" classname="restfulwebservice.WorkplaceServiceSpec" time="0.215"/>
+  <testcase name="test validateWorkplace with 1 existing workbook and workplace to validate constraints then returns boolean result" classname="restfulwebservice.WorkplaceServiceSpec" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
